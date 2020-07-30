@@ -24,7 +24,7 @@ class MainViewModel : ViewModel() {
 
         val searchUrl = "https://api.github.com/search/users?q=$username"
 
-        client.addHeader("Authorization", "token 0c8b312623b4c7a626a7840635915e8364f0b936")
+        client.addHeader("Authorization", "token [YOUR_APIKEY]")
         client.addHeader("User-Agent", "request")
 
         client.get(searchUrl, object : AsyncHttpResponseHandler() {
