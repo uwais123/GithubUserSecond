@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Submission 2</string>
+    <string name="search" >Cari Nama Pengguna</string>
+    <string name="noResult">Temukan Pengguna!</string>
+    <string name="searchForResult">Klik ikon pencarian untuk mulai mencari</string>
+    <string name="login">Login</string>
+    <string name="location">lokasi</string>
+    <string name="repo">Repository</string>
+    <string name="language">Ubah Bahasa</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tab_text1">pengikut</string>
+    <string name="tab_text2">mengikuti</string>
+    <string name="username" translatable="false">Nama Pengguna</string>
+    <string name="twiceback" translatable="false">Tekan tombol BACK sekali lagi untuk keluar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
