@@ -21,7 +21,7 @@ class FollowersViewModel : ViewModel() {
 
         val url = "https://api.github.com/users/$username/followers"
 
-        client.addHeader("Authorization", "token 0c8b312623b4c7a626a7840635915e8364f0b936")
+        client.addHeader("Authorization", "token [YOUR_APIKEY]")
         client.addHeader("User-Agent", "request")
 
         client.get(url, object : AsyncHttpResponseHandler() {
